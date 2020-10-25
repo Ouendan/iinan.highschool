@@ -1,0 +1,200 @@
+/* リセットcss */
+body,header{
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,ul{
+  font-weight: normal;
+  color: black;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* header css */
+header{
+  width: auto;
+  height: 200px;
+  padding: 20px 30px;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 40%;
+}
+
+
+/* main css */
+.title h1{
+  text-align: center;
+  border-bottom: 2px solid rgb(17, 199, 235);
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+.back{
+  display: inline-block;
+  color: aliceblue;
+  background-color: cornflowerblue;
+  padding: 5px 10px 5px 35px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.top-back{
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 5px 40px 5px 15px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+/* ここからコーディングを始める */
+
+/* 結成経緯のCSS */
+.background {
+  font-size: 18px;
+  letter-spacing: 2px;
+  width: auto;
+  height: 1000px;
+  margin: 40px 50px 30px;
+}
+
+.background p{
+  margin-top: 30px;
+}
+
+.images{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* 活動目的のCSS */
+.task {
+  font-size: 18px;
+  letter-spacing: 2px;
+  width: auto;
+  height: 450px;
+  margin: 80px 50px;
+}
+
+.task p{
+  font-size: medium;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.motto{
+  margin: 30px 50px ;
+  margin-bottom: 60px;
+}
+
+.motto p{
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: “STKaiti”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, serif;
+}
+
+.motto_{
+  text-align: center;
+}
+
+/* 歴史表のCSS */
+.title_table{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.tables{
+  display: flex;
+  justify-content: space-around;
+}
+
+.history{
+  width: 40vw;
+  margin: 0 auto;
+  margin: 50px 50px;
+}
+
+.history-2019{
+  height: 1500px;
+}
+
+.history-2020{
+  height: 1115px;
+}
+
+.times{
+  font-size: 25px;
+  width: 85px;
+}
+
+.moves{
+  font-size: 23px;
+  width: 280px;
+}
+
+.time{
+font-size: 20px;
+text-align: center;
+}
+
+.move{
+font-size: 20px;
+padding-left: 15px;
+}
+
+
+/* メディアクリエ用のSCC */
+@media(max-width: 700px){
+  .tables{
+    display: block;
+  }
+
+  .history{
+    width: 80vw;
+    height: 200px;
+    margin: 0 auto;
+    margin: 50px 50px;
+  }
+  
+  .times{
+    font-size: 25px;
+    width: 60px;
+  }
+  
+  .moves{
+    font-size: 25px;
+    width: 250px;
+  }
+  
+  .time{
+  font-size: 20px;
+  text-align: center;
+  }
+  
+  .move{
+  font-size: 20px;
+  padding-left: 15px;
+  }
+}
+
+/* footer css */
+footer{
+  width: auto;
+  height: 60px;
+  background-color: rgb(230, 230, 231);
+  padding-top: 20px;
+  text-align: center;
+}
+
+footer p{
+  letter-spacing: 1.2px;
+  padding-bottom: 10px;
+}

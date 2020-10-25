@@ -1,0 +1,122 @@
+/* リセットcss */
+body,header{
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,ul{
+  font-weight: normal;
+  color: black;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* header css */
+header{
+  width: auto;
+  height: 150px;
+  padding: 20px 30px;
+  background-color: rgb(243, 246, 249);
+}
+
+.logo{
+  width: 130px;
+  height: 130px;
+  border-radius: 40%;
+}
+
+/* main css */
+.title h1{
+  text-align: center;
+  border-bottom: 2px solid rgb(235, 119, 17);
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+.back{
+  display: inline-block;
+  color: aliceblue;
+  background-color: cornflowerblue;
+  padding: 5px 10px 5px 35px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+
+/* contents css */
+.contents{
+  margin: 10px 20px;
+}
+
+.show p{
+  font-size: 22px;
+}
+
+.school-name{
+  padding: 50px 50px;
+}
+
+.school-name h2{
+  text-align: center;
+  font-size: 40px;
+  color: rgb(173, 42, 42);
+}
+
+.school-name p{
+  margin: 45px 0 50px 0;
+  font-family: “STKaiti”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, serif;
+}
+
+.series_all{
+  margin: 30px 0 120px;
+}
+
+.series{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.series img:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.series-name{
+  font-size: 30px;
+}
+
+
+/* official css */
+.official h2{
+  text-align: center;
+  font-size: 40px;
+  color: rgb(173, 42, 42);
+}
+
+.official p{
+  font-size: 20px;
+  text-align: center;
+  margin: 40px 0 60px;
+}
+
+.official a{
+  font-size: 20px;
+  color: rgb(58, 186, 29);
+}
+
+
+/* footer css */
+footer{
+  width: auto;
+  height: 60px;
+  background-color: rgb(243, 246, 249);
+  padding-top: 20px;
+  text-align: center;
+}
+
+footer p{
+  letter-spacing: 1.2px;
+  padding-bottom: 10px;
+}

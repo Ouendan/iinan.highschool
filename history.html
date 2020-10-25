@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- jQuery.jsの読み込み -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<!-- スムーズスクロール部分の記述 -->
+<script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+  <meta charset="UTF-8">
+  <title>地域應援團Circle　編纂</title>
+<link rel="stylesheet" href="history.css">
+</head>
+<body>
+  <header>
+    <img src="images/Logo.jpeg" alt="飯南高等学校のロゴ" class="logo">
+  </header>
+
+  <main>
+    <div class="title" id="title">
+      <h1>地域應援團Circleの編纂</h1>
+    </div>
+
+    <a href="top.html" class="back">Topへ戻る</a>
+
+<!-- ここからコーディングを始める -->
+
+<!-- 活動経緯・目的のHTML -->
+<h3 class="title_table">應援團結成の経緯</h3>
+
+<div class="background">
+  <p>野球応援にもっと力を入れたいという生徒の想いから、2019年4月に応援団を結成。</p>
+  <p>応援の練習は朝８時と放課後１時間程度の２回。内容はエールの声出し、応援歌を吹奏楽の演奏に合わせての練習。応援の甲斐もあり、野球部は夏の大会で８年ぶり初戦突破を飾った。</p>
+  <p>また、野球の応援だけでなく、学校全体を盛り上げるためには地域の方々にも参加をしてもらったほうがいいと考え、地域振興局や近隣の小中学校を訪問し、「学校・地域を盛り上げたい」を合い言葉に応援依頼をした。</p>
+  <p>今後も学校や地域を盛り上げて行きたいという前向きな応援団の生徒１１名が残り、学校へ依頼があった高校生活動、ボランティア活動や地域プロジェクト活動を取り組む。９月からは飯南・飯高中学校生徒会の生徒と共に道の駅コラボプロジェクトを開始。１０月から１２月にかけて３回にわたり、[CHALLENGE＆DREAM]を茶倉駅・飯高駅で出店する。</p>
+  <p>2019年4月、前年度の活動が校内で周知されはじめ自主活動からサークル活動へとなる。</p>
+  <p>校内部活動の応援、地域企業と連携した道の駅プロジェクト、新商品開発や本校が４月から取り組んでいる地域との協働による高等学校教育改革推進事業を意識した活動を行う。</p>
+    <p>６月には鈴鹿大学・松阪市と｢飯南いいな協定｣が締結されるなど活動がより一層本格化している。</p>
+
+  <div class="images">
+    <img src="images/festival.jpg" alt="野球応援の写真">
+    <img src="images/fetival.cafe.jpg" alt="道の駅プロジェクト">
+  </div>
+</div>
+
+<h3 class="title_table">活動の目的</h3>
+<div class="task">
+  <div class="motto">
+    <p>① 学校・地域を盛り上げる</p>
+    <p>② 地域の大人と積極的に関わり、地域のために出来ることを自主的に考え、課題解決に努める</p>
+    <p>③ 地域を知り郷土愛を育みながら、現状の課題を的確に捉える仮説力を養う</p>
+    <p>④ 大人や外部の学生と深く関わりながら共に活動するために必要な対話力や創造力を身に着ける</p>
+    <p>⑤ 地域の良さや自分たちの活動を効果的に多くの人に知ってもらうための発信力の資質能力を育む</p>
+  </div>
+
+  <p class="motto_">上記の５つの力を備えた学生に成長することにより、AIに取って代わられることのない価値のある人材へと成長していく</p>
+</div>
+
+
+
+
+<!-- 歴史表のHTML -->
+<h3 class="title_table">地域應援團Circle　年表</h3>
+
+<div class="tables">
+  <table border="1" class="history , history-2019">
+
+    <tr>
+      <th class="times">活動時期</th>
+      <th class="moves">活動内容</th>
+    </tr>
+    <tr>
+      <td class="time">2019年 4月</td>
+      <td class="move">應援隊 サークル活動となる</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">壮行会応援練習</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">第1回 新商品開発会議</td>
+    </tr>  
+    <tr>
+      <td class="time">2019年 5月</td>
+      <td class="move">県総体壮行会 応援</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">第2回 新商品開発会議</td>
+    </tr>  
+    <tr>
+      <td class="time">2019年 6月</td>
+      <td class="move">飯南いいな協定(鈴鹿大学・松阪市)</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">地域みらいＰＢＬ会議</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">第3回 新商品開発会議</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">壮行会・野球応援練習</td>
+    </tr>  
+      <td class="time">2019年 7月</td>
+      <td class="move">高校野球応援</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">第4回 新商品開発会議</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">小規模校サミットIn山形</td>
+    </tr>  
+    <tr>  
+      <td class="time">2019年 8月</td>
+      <td class="move">松阪高校生意見交流会</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">ＳＢＰキャンプ（皇學館）</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">答志島サスティナブルキャンプ</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">茶キャンプ（岐阜　揖斐川）</td>
+    </tr> 
+    <tr>  
+      <td class="time">2019年 10月</td>
+      <td class="move">新商品発売開始（勢和多気会 ベルファーム）</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">棚田まつり</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">宮前フェスティバル</td>
+    </tr>  
+    <tr>  
+      <td class="time">2019年 11月</td>
+      <td class="move">松阪もめんフェスティバル（松阪駅付近）</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">ふれあい祭り（飯南産業文化センター）</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">文化祭発表・み茶ちる販売　</td>
+    </tr>  
+    <tr>  
+      <td class="time">2019年 12月</td>
+      <td class="move">地域創造高校生サミット（紀勢）</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">エコキャップ運動　→　ひまわり保育園寄付</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">道の駅コラボプロジェクトWith鈴鹿大学</td>
+    </tr>  
+    <tr>  
+      <td class="time">2020年 1月</td>
+      <td class="move">鈴鹿大学とのネット会議</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">中学生とのネット会議（飯南・飯高）</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">クラウドファンディング計画（もくいち）</td>
+    </tr>  
+    <tr>  
+      <td class="time">2020年 2月</td>
+      <td class="move">【VICS】×道の駅コラボプロジェクト</td>
+    </tr>  
+    <tr>
+      <td class="time">   </td>
+      <td class="move">第６回ＳＣＨシンポジウム（山形県）</td>
+    </tr>  
+
+  </table>
+
+<div class="tables">
+  <table border="1" class="history , history-2020">
+
+    <tr>
+      <th class="times">活動時期</th>
+      <th class="moves">活動内容</th>
+    </tr>
+    <tr>
+      <td class="time">2020年 4月</td>
+      <td class="move">應援團オンライン会議(zoom)</td>
+    </tr>
+    <tr>
+      <td class="time">2020年 5月</td>
+      <td class="move">應援團オンライン会議(zoom)</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">空家片付けオンライン会議（zoom）</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">木の手帳オンライン会議(zoom)</td>
+    </tr>
+    <tr>
+      <td class="time">2020年 6月</td>
+      <td class="move">地域企業の困りごと聞き込み調査①</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">木の手帳改良へ向けて①</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">飯南中・飯高中オンライン会議（zoom）</td>
+    </tr>
+    <tr>
+      <td class="time">2020年 7月</td>
+      <td class="move">地域企業の困りごと聞き込み調査②</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">木の手帳改良へ向けて②</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">野球・テニス・陸上　壮行会</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">高校野球応援（練習試合）</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">エコキャップ運動　→　ひまわり保育園寄付</td>
+    </tr>
+    <tr>
+      <td class="time">2020年 8月</td>
+      <td class="move">鈴りん探偵舎オンライン会議（zoom）</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">第５回ＳＰＢ交流フェア参加【藻谷賞受賞】</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">木の手帳改良へ向けて③</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">地域みらい留学　中学生募集にむけて発表①</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">ＳＰＢ審査員阪井様訪問（熊野）</td>
+    </tr>
+      <td class="time">2020年 9月</td>
+      <td class="move">ＩＮＰＩＴ知財支援窓口訪問（津）</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">ＳＰＢ審査委員長荒木様表敬訪問（津）</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">地域みらい留学　中学生募集に向けて発表②</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">ＨＰ作成オンライン会議（ＯＢ:市野）</td>
+    </tr>
+    <tr>
+      <td class="time">   </td>
+      <td class="move">空家片付け</td>
+    </tr>
+
+  </table>
+
+</div>
+
+
+</main>
+
+<a href="#title" class="top-back">△ ページTopへ戻る</a>
+  <footer>
+    <p>@ Iinan_Hight_School</p>
+  </footer>
+</body>
+</html>
