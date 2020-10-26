@@ -47,7 +47,7 @@ header{
 .container{
   height: 750px;
   width: auto;
-  background-image: url(images/wood_kasinoki.jpg);
+  background-image: url(wood_kasinoki.jpg);
   background-size: cover;
   position: relative;
 }
