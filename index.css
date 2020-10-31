@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6,a,p,ul{
 
 /* body css */
 body{
-  background-image: url(header-test.jpg);
+  background-image: url(top_image.jpg);
   background-size: cover;
 }
 
