@@ -39,7 +39,7 @@ main{
 
 .catch_copy p{
   color: aliceblue;
-  font-size: 65px;
+  font-size: 55px;
   text-align: center; 
   text-shadow: 1px 3px rgb(37, 17, 117);
   
@@ -50,11 +50,11 @@ main{
 
 .catch_copy h2{
   color: aliceblue;
-  font-size: 65px;
+  font-size: 55px;
   text-align: center; 
   text-shadow: 1px 3px rgb(37, 17, 117);
   position: absolute;
-  top: 220px;
+  top: 130px;
   right: 60px;
 }
 
